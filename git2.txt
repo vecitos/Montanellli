@@ -1,0 +1,132 @@
+vecchio.15160@TI-PC20 MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/vecchio.15160/.git/
+
+vecchio.15160@TI-PC20 MINGW64 ~ (master)
+$ git init learn_git_again
+Initialized empty Git repository in C:/Users/vecchio.15160/learn_git_again/.git/
+
+vecchio.15160@TI-PC20 MINGW64 ~ (master)
+$  cd learn_git_again
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ nano third.txt
+Error in /usr/share/nano/git.nanorc on line 1: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 2: Command "
+" not understoodare/nano/git.nanorc on line 10: Command "
+" not understoodare/nano/git.nanorc on line 15: Command "
+Error in /usr/share/nano/git.nanorc on line 19: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 20: Command "
+" not understoodare/nano/git.nanorc on line 23: Command "
+" not understoodare/nano/git.nanorc on line 26: Command "
+" not understoodare/nano/git.nanorc on line 33: Command "
+" not understoodare/nano/git.nanorc on line 36: Command "
+" not understoodare/nano/git.nanorc on line 42: Command "
+" not understoodare/nano/git.nanorc on line 44: Command "
+" not understoodare/nano/git.nanorc on line 47: Command "
+" not understoodare/nano/git.nanorc on line 50: Command "
+" not understoodare/nano/git.nanorc on line 51: Command "
+Error in /usr/share/nano/git.nanorc on line 53: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 54: Command "
+" not understoodare/nano/git.nanorc on line 57: Command "
+" not understoodare/nano/git.nanorc on line 60: Command "
+" not understoodare/nano/git.nanorc on line 74: Command "
+" not understoodare/nano/git.nanorc on line 77: Command "
+" not understoodare/nano/git.nanorc on line 80: Command "
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ git add third.txt
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ git commit -m "adding third.txt"
+[master (root-commit) 2bde512] adding third.txt
+ Committer: Marco Vecchio <vecchio.15160>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.txt
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ nano fourth.txt
+Error in /usr/share/nano/git.nanorc on line 1: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 2: Command "
+" not understoodare/nano/git.nanorc on line 10: Command "
+" not understoodare/nano/git.nanorc on line 15: Command "
+Error in /usr/share/nano/git.nanorc on line 19: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 20: Command "
+" not understoodare/nano/git.nanorc on line 23: Command "
+" not understoodare/nano/git.nanorc on line 26: Command "
+" not understoodare/nano/git.nanorc on line 33: Command "
+" not understoodare/nano/git.nanorc on line 36: Command "
+" not understoodare/nano/git.nanorc on line 42: Command "
+" not understoodare/nano/git.nanorc on line 44: Command "
+" not understoodare/nano/git.nanorc on line 47: Command "
+" not understoodare/nano/git.nanorc on line 50: Command "
+" not understoodare/nano/git.nanorc on line 51: Command "
+Error in /usr/share/nano/git.nanorc on line 53: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 54: Command "
+" not understoodare/nano/git.nanorc on line 57: Command "
+" not understoodare/nano/git.nanorc on line 60: Command "
+" not understoodare/nano/git.nanorc on line 74: Command "
+" not understoodare/nano/git.nanorc on line 77: Command "
+" not understoodare/nano/git.nanorc on line 80: Command "
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$  add fourth.txt
+bash: add: command not found
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ git add fourth.txt
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ git commit -m "adding fourth.txt"
+[master e2c3d6e] adding fourth.txt
+ Committer: Marco Vecchio <vecchio.15160>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fourth.txt
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ git log
+commit e2c3d6e00159cf9f151e01f614e307c248ea19e8 (HEAD -> master)
+Author: Marco Vecchio <vecchio.15160>
+Date:   Mon Feb 3 09:23:55 2020 +0100
+
+    adding fourth.txt
+
+commit 2bde51201c8667aa28ab0aaff8b4931b9c0371b5
+Author: Marco Vecchio <vecchio.15160>
+Date:   Mon Feb 3 09:21:52 2020 +0100
+
+    adding third.txt
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$ ^C
+bash: :s^C: substitution failed
+
+vecchio.15160@TI-PC20 MINGW64 ~/learn_git_again (master)
+$
