@@ -1,0 +1,389 @@
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ help
+GNU bash, version 4.4.23(1)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                                                                                                    history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
+ (( expression ))                                                                                                                if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
+ . filename [arguments]                                                                                                          jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+ :                                                                                                                               kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ [ arg... ]                                                                                                                      let arg [arg ...]
+ [[ expression ]]                                                                                                                local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                                                                                                  logout [n]
+ bg [job_spec ...]                                                                                                               mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x keyseq:shell-command] [keyseq:readline-functio>  popd [-n] [+N | -N]
+ break [n]                                                                                                                       printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                                                                                               pushd [-n] [+N | -N | dir]
+ caller [expr]                                                                                                                   pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac                                                                      read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt] [-t timeout] [-u fd] [name ...]
+ cd [-L|[-P [-e]] [-@]] [dir]                                                                                                    readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+ command [-pVv] command [arg ...]                                                                                                readonly [-aAf] [name[=value] ...] or readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P pre>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filte>  select NAME [in WORDS ... ;] do COMMANDS; done
+ compopt [-o|+o option] [-DE] [name ...]                                                                                         set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
+ continue [n]                                                                                                                    shift [n]
+ coproc [NAME] command [redirections]                                                                                            shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgilnrtux] [-p] [name[=value] ...]                                                                                 source filename [arguments]
+ dirs [-clpv] [+N] [-N]                                                                                                          suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                                                                                       test [expr]
+ echo [-neE] [arg ...]                                                                                                           time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [name ...]                                                                                    times
+ eval [arg ...]                                                                                                                  trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [arguments ...]] [redirection ...]                                                                true
+ exit [n]                                                                                                                        type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or export -p                                                                                    typeset [-aAfFgilnrtux] [-p] name[=value] ...
+ false                                                                                                                           ulimit [-SHabcdefiklmnpqrstuvxPT] [limit]
+ fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]                                                                umask [-p] [-S] [mode]
+ fg [job_spec]                                                                                                                   unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMANDS; done                                                                                    unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMANDS; done                                                                                   until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name () { COMMANDS ; }                                                                          variables - Names and meanings of some shell variables
+ getopts optstring name [arg]                                                                                                    wait [-n] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name ...]                                                                                       while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]                                                                                                       { COMMANDS ; }
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ git --version
+git version 2.24.1.windows.2
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$  git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+Error in /usr/share/nano/git.nanorc on line 1: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 2: Command "
+" not understoodare/nano/git.nanorc on line 10: Command "
+" not understoodare/nano/git.nanorc on line 15: Command "
+Error in /usr/share/nano/git.nanorc on line 19: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 20: Command "
+" not understoodare/nano/git.nanorc on line 23: Command "
+" not understoodare/nano/git.nanorc on line 26: Command "
+" not understoodare/nano/git.nanorc on line 33: Command "
+" not understoodare/nano/git.nanorc on line 36: Command "
+" not understoodare/nano/git.nanorc on line 42: Command "
+" not understoodare/nano/git.nanorc on line 44: Command "
+" not understoodare/nano/git.nanorc on line 47: Command "
+" not understoodare/nano/git.nanorc on line 50: Command "
+" not understoodare/nano/git.nanorc on line 51: Command "
+Error in /usr/share/nano/git.nanorc on line 53: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 54: Command "
+" not understoodare/nano/git.nanorc on line 57: Command "
+" not understoodare/nano/git.nanorc on line 60: Command "
+" not understoodare/nano/git.nanorc on line 74: Command "
+" not understoodare/nano/git.nanorc on line 77: Command "
+" not understoodare/nano/git.nanorc on line 80: Command "
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ ls
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ ls first.txt
+ls: cannot access 'first.txt': No such file or directory
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ nano first.txt
+Error in /usr/share/nano/git.nanorc on line 1: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 2: Command "
+" not understoodare/nano/git.nanorc on line 10: Command "
+" not understoodare/nano/git.nanorc on line 15: Command "
+Error in /usr/share/nano/git.nanorc on line 19: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 20: Command "
+" not understoodare/nano/git.nanorc on line 23: Command "
+" not understoodare/nano/git.nanorc on line 26: Command "
+" not understoodare/nano/git.nanorc on line 33: Command "
+" not understoodare/nano/git.nanorc on line 36: Command "
+" not understoodare/nano/git.nanorc on line 42: Command "
+" not understoodare/nano/git.nanorc on line 44: Command "
+" not understoodare/nano/git.nanorc on line 47: Command "
+" not understoodare/nano/git.nanorc on line 50: Command "
+" not understoodare/nano/git.nanorc on line 51: Command "
+Error in /usr/share/nano/git.nanorc on line 53: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 54: Command "
+" not understoodare/nano/git.nanorc on line 57: Command "
+" not understoodare/nano/git.nanorc on line 60: Command "
+" not understoodare/nano/git.nanorc on line 74: Command "
+" not understoodare/nano/git.nanorc on line 77: Command "
+" not understoodare/nano/git.nanorc on line 80: Command "
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ ls first.txt
+first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ ls -a
+./  ../  .git/  first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ cd ..
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ ls -a
+ ./             'Application Data'@   first.txt/               MicrosoftEdgeBackups/   NTUSER.DAT{c2629829-aeb7-11e9-b6bd-f439090684d1}.TM.blf                                        PrintHood@      Templates@
+ ../             Contacts/            ganttproject.log         Music/                  NTUSER.DAT{c2629829-aeb7-11e9-b6bd-f439090684d1}.TMContainer00000000000000000001.regtrans-ms   Recent@         Videos/
+ .android/       Cookies@             IntelGraphicsProfiles/  'My Documents'@          NTUSER.DAT{c2629829-aeb7-11e9-b6bd-f439090684d1}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/
+ .ganttproject   Desktop/             java0.log                NetHood@                ntuser.ini                                                                                     Searches/
+ .git/           Documents/           learn_git/               NTUSER.DAT              ntuser.pol                                                                                     SendTo@
+'3D Objects'/    Downloads/           Links/                   ntuser.dat.LOG1         OneDrive/                                                                                      source/
+ AppData/        Favorites/          'Local Settings'@         ntuser.dat.LOG2         Pictures/                                                                                     'Start Menu'@
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ cd .git
+
+montanelli.15151@TI-PC19 MINGW64 ~/.git (GIT_DIR!)
+$ cd ..
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ganttproject
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{c2629829-aeb7-11e9-b6bd-f439090684d1}.TM.blf
+        NTUSER.DAT{c2629829-aeb7-11e9-b6bd-f439090684d1}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{c2629829-aeb7-11e9-b6bd-f439090684d1}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        ganttproject.log
+        java0.log
+        learn_git/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        ntuser.pol
+        source/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ cd .git
+
+montanelli.15151@TI-PC19 MINGW64 ~/.git (GIT_DIR!)
+$ git init
+Initialized empty Git repository in C:/Users/montanelli.15151/.git/.git/
+
+montanelli.15151@TI-PC19 MINGW64 ~/.git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HEAD
+        config
+        description
+        hooks/
+        info/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+montanelli.15151@TI-PC19 MINGW64 ~/.git (master)
+$ cd..
+bash: cd..: command not found
+
+montanelli.15151@TI-PC19 MINGW64 ~/.git (master)
+$ cd
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ git add first.txt
+error: 'first.txt/' does not have a commit checked out
+fatal: adding files failed
+
+montanelli.15151@TI-PC19 MINGW64 ~ (master)
+$ cd learn_git
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git add first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git commit -m "adding first.txt"
+[master (root-commit) 00cdabf] adding first.txt
+ Committer: Lorenzo Montanelli <montanelli.15151>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ nano second.txt
+Error in /usr/share/nano/git.nanorc on line 1: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 2: Command "
+" not understoodare/nano/git.nanorc on line 10: Command "
+" not understoodare/nano/git.nanorc on line 15: Command "
+Error in /usr/share/nano/git.nanorc on line 19: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 20: Command "
+" not understoodare/nano/git.nanorc on line 23: Command "
+" not understoodare/nano/git.nanorc on line 26: Command "
+" not understoodare/nano/git.nanorc on line 33: Command "
+" not understoodare/nano/git.nanorc on line 36: Command "
+" not understoodare/nano/git.nanorc on line 42: Command "
+" not understoodare/nano/git.nanorc on line 44: Command "
+" not understoodare/nano/git.nanorc on line 47: Command "
+" not understoodare/nano/git.nanorc on line 50: Command "
+" not understoodare/nano/git.nanorc on line 51: Command "
+Error in /usr/share/nano/git.nanorc on line 53: Regex strings must begin and end with a " character
+" not understoodare/nano/git.nanorc on line 54: Command "
+" not understoodare/nano/git.nanorc on line 57: Command "
+" not understoodare/nano/git.nanorc on line 60: Command "
+" not understoodare/nano/git.nanorc on line 74: Command "
+" not understoodare/nano/git.nanorc on line 77: Command "
+" not understoodare/nano/git.nanorc on line 80: Command "
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ ls -a
+./  ../  .git/  first.txt  second.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git add second.txt
+warning: LF will be replaced by CRLF in second.txt.
+The file will have its original line endings in your working directory
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git commit "adding second.txt"
+error: pathspec 'adding second.txt' did not match any file(s) known to git
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git commit -m "adding second.txt"
+[master a515d58] adding second.txt
+ Committer: Lorenzo Montanelli <montanelli.15151>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 second.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git log
+commit a515d58bab1e2a29df07df372f67a68789e62db3 (HEAD -> master)
+Author: Lorenzo Montanelli <montanelli.15151>
+Date:   Mon Jan 20 09:21:55 2020 +0100
+
+    adding second.txt
+
+commit 00cdabf5c3494cdfc6963c308a507f9dc419370b
+Author: Lorenzo Montanelli <montanelli.15151>
+Date:   Mon Jan 20 09:20:17 2020 +0100
+
+    adding first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git rm first.txt
+rm 'first.txt'
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git commit -m "remove first.txt"
+[master c545fcd] remove first.txt
+ Committer: Lorenzo Montanelli <montanelli.15151>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ ls -a
+./  ../  .git/  second.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$ git log
+commit c545fcd49e7f096197c404c2afbd48f5beda7717 (HEAD -> master)
+Author: Lorenzo Montanelli <montanelli.15151>
+Date:   Mon Jan 20 09:22:59 2020 +0100
+
+    remove first.txt
+
+commit a515d58bab1e2a29df07df372f67a68789e62db3
+Author: Lorenzo Montanelli <montanelli.15151>
+Date:   Mon Jan 20 09:21:55 2020 +0100
+
+    adding second.txt
+
+commit 00cdabf5c3494cdfc6963c308a507f9dc419370b
+Author: Lorenzo Montanelli <montanelli.15151>
+Date:   Mon Jan 20 09:20:17 2020 +0100
+
+    adding first.txt
+
+montanelli.15151@TI-PC19 MINGW64 ~/learn_git (master)
+$
